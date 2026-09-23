@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int hours,month,day,remaining;
+    hours = 1100;
+    month = hours/720;
+    remaining = hours-(month *720);
+    day = remaining/24;
+    remaining = remaining - (day*24);
+    printf("month = %d \n",month);
+      printf("day = %d\n",day);
+        printf("hours = %d \n",remaining);
+return 0;
+}
